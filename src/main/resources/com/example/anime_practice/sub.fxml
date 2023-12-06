@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #99CCCC;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.anime_practice.SubController">
-
+<AnchorPane fx:id="sub_layout" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #99CCCC;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.anime_practice.SubController">
+   <children>
+      <Label layoutX="211.0" layoutY="149.0" prefHeight="114.0" prefWidth="279.0" text="Test">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+   </children>
 </AnchorPane>

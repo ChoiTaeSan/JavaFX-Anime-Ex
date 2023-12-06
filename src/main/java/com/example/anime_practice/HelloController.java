@@ -36,9 +36,10 @@ public class HelloController implements Initializable {
 
                     Timeline timeline = new Timeline();
                     KeyValue keyValue = new KeyValue(sub.translateXProperty(),0);
-                    KeyFrame keyFrame = new KeyFrame(Duration.millis(100), keyValue);
+                    KeyFrame keyFrame = new KeyFrame(Duration.millis(300), keyValue);
                     timeline.getKeyFrames().add(keyFrame);
                     timeline.play();
+
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
